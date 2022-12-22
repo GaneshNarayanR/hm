@@ -1,0 +1,3 @@
+variable "Dname" {
+  type = string
+}
