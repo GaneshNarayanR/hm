@@ -14,7 +14,7 @@ resource "aws_instance" "BH-server" {
   associate_public_ip_address = "true"
   tags = {
     Name          = "BH-server"
-    developername = "var.Dname"
+    developername =  var.Dname
   }
 }
 
