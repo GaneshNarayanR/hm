@@ -12,7 +12,7 @@ resource "aws_instance" "minikube-server" {
 
   tags = {
     Name          = "minikube-server"
-    developername = "var.Dname"
+    developername =  var.Dname
   }
 }
 
